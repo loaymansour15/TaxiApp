@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DF825733343411B5E10FCF2 /* Pods_TaxiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759B90C027908192DCD52551 /* Pods_TaxiApp.framework */; };
+		A03C0F2BEDFC48F963CA2CB4 /* Pods_TaxiAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E2A88B094607D85C1EDFA3 /* Pods_TaxiAppUITests.framework */; };
+		C604312022BA78A800B87CEB /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C604311F22BA78A800B87CEB /* RoundedCornerTextField.swift */; };
+		C60F5AC222BF768600EE1460 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60F5AC122BF768600EE1460 /* UIViewControllerExtension.swift */; };
+		C639448922BAFBC00093C641 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C639448822BAFBC00093C641 /* DataService.swift */; };
+		C639BA7822BF61EC007207EF /* CarTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C639BA7722BF61EC007207EF /* CarTypeTableViewCell.swift */; };
 		C64DDC0422B63BA8005C0C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DDC0322B63BA8005C0C4E /* AppDelegate.swift */; };
-		C64DDC0622B63BA8005C0C4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DDC0522B63BA8005C0C4E /* ViewController.swift */; };
+		C64DDC0622B63BA8005C0C4E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DDC0522B63BA8005C0C4E /* HomeViewController.swift */; };
 		C64DDC0922B63BA8005C0C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64DDC0722B63BA8005C0C4E /* Main.storyboard */; };
 		C64DDC0C22B63BA8005C0C4E /* TaxiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C64DDC0A22B63BA8005C0C4E /* TaxiApp.xcdatamodeld */; };
 		C64DDC0E22B63BA9005C0C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64DDC0D22B63BA9005C0C4E /* Assets.xcassets */; };
 		C64DDC1122B63BA9005C0C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64DDC0F22B63BA9005C0C4E /* LaunchScreen.storyboard */; };
 		C64DDC1C22B63BAA005C0C4E /* TaxiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DDC1B22B63BAA005C0C4E /* TaxiAppTests.swift */; };
 		C64DDC2722B63BAA005C0C4E /* TaxiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DDC2622B63BAA005C0C4E /* TaxiAppUITests.swift */; };
+		C64DDC3922B63D0A005C0C4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C64DDC3822B63D0A005C0C4E /* GoogleService-Info.plist */; };
+		C66EB6F122B9A89B00541197 /* RoundedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66EB6F022B9A89B00541197 /* RoundedPickerView.swift */; };
+		C67A9A5522C1FC9E00982E45 /* VisaPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A9A5422C1FC9E00982E45 /* VisaPaymentViewController.swift */; };
+		C69201C622B951310032EE72 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69201C522B951310032EE72 /* GradientView.swift */; };
+		C69201C822B95CE30032EE72 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69201C722B95CE30032EE72 /* RoundImageView.swift */; };
+		C69201CA22B95DFF0032EE72 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69201C922B95DFF0032EE72 /* RoundedShadowView.swift */; };
+		C69201CC22B95EF80032EE72 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69201CB22B95EF80032EE72 /* CircleView.swift */; };
+		C69201CE22B960E90032EE72 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69201CD22B960E90032EE72 /* RoundedShadowButton.swift */; };
+		C69201D022B97BA90032EE72 /* LeftSidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69201CF22B97BA90032EE72 /* LeftSidePanelViewController.swift */; };
+		C69201D222B97CAC0032EE72 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69201D122B97CAC0032EE72 /* ContainerViewController.swift */; };
+		C69201D522B97F6F0032EE72 /* CenterViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69201D422B97F6F0032EE72 /* CenterViewControllerDelegate.swift */; };
+		C697A73622BBC4F600BEBE45 /* LangAndPermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A73522BBC4F600BEBE45 /* LangAndPermissionsViewController.swift */; };
+		C697A73822BBCF6000BEBE45 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A73722BBCF6000BEBE45 /* UIButtonExtension.swift */; };
+		C697A73A22BBEEB200BEBE45 /* UIAlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A73922BBEEB200BEBE45 /* UIAlertExtension.swift */; };
+		C6ABB6A522C1B00E00DE7414 /* ActionSheetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ABB6A422C1B00E00DE7414 /* ActionSheetExtension.swift */; };
+		C6B4487A22B9C75600358F77 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B4487922B9C75600358F77 /* UIViewExtension.swift */; };
+		C6B4487C22B9C8C900358F77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B4487B22B9C8C900358F77 /* LoginViewController.swift */; };
+		C6CCF75B22C04FD80084B008 /* AutoCompleteSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CCF75A22C04FD80084B008 /* AutoCompleteSearchViewController.swift */; };
+		C6CCF75D22C055640084B008 /* RundedShadowUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CCF75C22C055640084B008 /* RundedShadowUISearchBar.swift */; };
+		C6CCF75F22C059910084B008 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CCF75E22C059910084B008 /* ResultTableViewCell.swift */; };
+		DB9ABB12F6D693E327C11B70 /* Pods_TaxiAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31ECFB32BDA4DD44FA31C1CC /* Pods_TaxiAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +62,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E2A88B094607D85C1EDFA3 /* Pods_TaxiAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxiAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1416252352498F9D73A8CEA2 /* Pods-TaxiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiAppTests/Pods-TaxiAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		18F81D70FC60B7B848E6D13B /* Pods-TaxiAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiAppTests/Pods-TaxiAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31ECFB32BDA4DD44FA31C1CC /* Pods_TaxiAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxiAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCFBF4E4F3C0ECD7242C406 /* Pods-TaxiAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiAppUITests/Pods-TaxiAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		759B90C027908192DCD52551 /* Pods_TaxiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E49CDB3ABF8E51DABE052D2 /* Pods-TaxiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiApp/Pods-TaxiApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B52F40CCE088DB65AF5C9F6D /* Pods-TaxiAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiAppUITests/Pods-TaxiAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C604311F22BA78A800B87CEB /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
+		C60F5AC122BF768600EE1460 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		C639448822BAFBC00093C641 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C639BA7722BF61EC007207EF /* CarTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTypeTableViewCell.swift; sourceTree = "<group>"; };
 		C64DDC0022B63BA8005C0C4E /* TaxiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64DDC0322B63BA8005C0C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C64DDC0522B63BA8005C0C4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C64DDC0522B63BA8005C0C4E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C64DDC0822B63BA8005C0C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C64DDC0B22B63BA8005C0C4E /* TaxiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaxiApp.xcdatamodel; sourceTree = "<group>"; };
 		C64DDC0D22B63BA9005C0C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +88,27 @@
 		C64DDC2222B63BAA005C0C4E /* TaxiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64DDC2622B63BAA005C0C4E /* TaxiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiAppUITests.swift; sourceTree = "<group>"; };
 		C64DDC2822B63BAA005C0C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C64DDC3822B63D0A005C0C4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C66EB6F022B9A89B00541197 /* RoundedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedPickerView.swift; sourceTree = "<group>"; };
+		C67A9A5422C1FC9E00982E45 /* VisaPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaPaymentViewController.swift; sourceTree = "<group>"; };
+		C69201C522B951310032EE72 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		C69201C722B95CE30032EE72 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		C69201C922B95DFF0032EE72 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		C69201CB22B95EF80032EE72 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		C69201CD22B960E90032EE72 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		C69201CF22B97BA90032EE72 /* LeftSidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelViewController.swift; sourceTree = "<group>"; };
+		C69201D122B97CAC0032EE72 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		C69201D422B97F6F0032EE72 /* CenterViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewControllerDelegate.swift; sourceTree = "<group>"; };
+		C697A73522BBC4F600BEBE45 /* LangAndPermissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangAndPermissionsViewController.swift; sourceTree = "<group>"; };
+		C697A73722BBCF6000BEBE45 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		C697A73922BBEEB200BEBE45 /* UIAlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertExtension.swift; sourceTree = "<group>"; };
+		C6ABB6A422C1B00E00DE7414 /* ActionSheetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetExtension.swift; sourceTree = "<group>"; };
+		C6B4487922B9C75600358F77 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		C6B4487B22B9C8C900358F77 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C6CCF75A22C04FD80084B008 /* AutoCompleteSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteSearchViewController.swift; sourceTree = "<group>"; };
+		C6CCF75C22C055640084B008 /* RundedShadowUISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RundedShadowUISearchBar.swift; sourceTree = "<group>"; };
+		C6CCF75E22C059910084B008 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		D6A6A63073AEAAD41C3850EB /* Pods-TaxiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiApp/Pods-TaxiApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF825733343411B5E10FCF2 /* Pods_TaxiApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9ABB12F6D693E327C11B70 /* Pods_TaxiAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +132,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03C0F2BEDFC48F963CA2CB4 /* Pods_TaxiAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39D2E7E4031E778647FC39E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				759B90C027908192DCD52551 /* Pods_TaxiApp.framework */,
+				31ECFB32BDA4DD44FA31C1CC /* Pods_TaxiAppTests.framework */,
+				05E2A88B094607D85C1EDFA3 /* Pods_TaxiAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B799B7BB7D7D9BA8E30DAF49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E49CDB3ABF8E51DABE052D2 /* Pods-TaxiApp.debug.xcconfig */,
+				D6A6A63073AEAAD41C3850EB /* Pods-TaxiApp.release.xcconfig */,
+				18F81D70FC60B7B848E6D13B /* Pods-TaxiAppTests.debug.xcconfig */,
+				1416252352498F9D73A8CEA2 /* Pods-TaxiAppTests.release.xcconfig */,
+				B52F40CCE088DB65AF5C9F6D /* Pods-TaxiAppUITests.debug.xcconfig */,
+				5DCFBF4E4F3C0ECD7242C406 /* Pods-TaxiAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C639448722BAFB9B0093C641 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C639448822BAFBC00093C641 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C64DDBF722B63BA8005C0C4E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +177,8 @@
 				C64DDC1A22B63BA9005C0C4E /* TaxiAppTests */,
 				C64DDC2522B63BAA005C0C4E /* TaxiAppUITests */,
 				C64DDC0122B63BA8005C0C4E /* Products */,
+				B799B7BB7D7D9BA8E30DAF49 /* Pods */,
+				39D2E7E4031E778647FC39E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +195,16 @@
 		C64DDC0222B63BA8005C0C4E /* TaxiApp */ = {
 			isa = PBXGroup;
 			children = (
-				C64DDC0322B63BA8005C0C4E /* AppDelegate.swift */,
-				C64DDC0522B63BA8005C0C4E /* ViewController.swift */,
 				C64DDC0722B63BA8005C0C4E /* Main.storyboard */,
-				C64DDC0D22B63BA9005C0C4E /* Assets.xcassets */,
-				C64DDC0F22B63BA9005C0C4E /* LaunchScreen.storyboard */,
+				C64DDC3522B63BF9005C0C4E /* Controllers */,
+				C64DDC3622B63C0B005C0C4E /* Models */,
+				C6B4487822B9C72500358F77 /* Extensions */,
+				C64DDC3722B63C1F005C0C4E /* Views */,
+				C69201D322B97F4C0032EE72 /* Protocols */,
+				C639448722BAFB9B0093C641 /* Services */,
+				C64DDC3422B63BDC005C0C4E /* SupportingFiles */,
 				C64DDC1222B63BA9005C0C4E /* Info.plist */,
+				C64DDC3822B63D0A005C0C4E /* GoogleService-Info.plist */,
 				C64DDC0A22B63BA8005C0C4E /* TaxiApp.xcdatamodeld */,
 			);
 			path = TaxiApp;
@@ -128,6 +228,74 @@
 			path = TaxiAppUITests;
 			sourceTree = "<group>";
 		};
+		C64DDC3422B63BDC005C0C4E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C64DDC0322B63BA8005C0C4E /* AppDelegate.swift */,
+				C64DDC0D22B63BA9005C0C4E /* Assets.xcassets */,
+				C64DDC0F22B63BA9005C0C4E /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C64DDC3522B63BF9005C0C4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C69201D122B97CAC0032EE72 /* ContainerViewController.swift */,
+				C69201CF22B97BA90032EE72 /* LeftSidePanelViewController.swift */,
+				C6B4487B22B9C8C900358F77 /* LoginViewController.swift */,
+				C697A73522BBC4F600BEBE45 /* LangAndPermissionsViewController.swift */,
+				C64DDC0522B63BA8005C0C4E /* HomeViewController.swift */,
+				C6CCF75A22C04FD80084B008 /* AutoCompleteSearchViewController.swift */,
+				C67A9A5422C1FC9E00982E45 /* VisaPaymentViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C64DDC3622B63C0B005C0C4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C64DDC3722B63C1F005C0C4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C69201C522B951310032EE72 /* GradientView.swift */,
+				C69201C722B95CE30032EE72 /* RoundImageView.swift */,
+				C69201C922B95DFF0032EE72 /* RoundedShadowView.swift */,
+				C69201CB22B95EF80032EE72 /* CircleView.swift */,
+				C69201CD22B960E90032EE72 /* RoundedShadowButton.swift */,
+				C66EB6F022B9A89B00541197 /* RoundedPickerView.swift */,
+				C604311F22BA78A800B87CEB /* RoundedCornerTextField.swift */,
+				C6CCF75C22C055640084B008 /* RundedShadowUISearchBar.swift */,
+				C639BA7722BF61EC007207EF /* CarTypeTableViewCell.swift */,
+				C6CCF75E22C059910084B008 /* ResultTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C69201D322B97F4C0032EE72 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C69201D422B97F6F0032EE72 /* CenterViewControllerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C6B4487822B9C72500358F77 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C6B4487922B9C75600358F77 /* UIViewExtension.swift */,
+				C697A73722BBCF6000BEBE45 /* UIButtonExtension.swift */,
+				C697A73922BBEEB200BEBE45 /* UIAlertExtension.swift */,
+				C60F5AC122BF768600EE1460 /* UIViewControllerExtension.swift */,
+				C6ABB6A422C1B00E00DE7414 /* ActionSheetExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +303,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C64DDC2B22B63BAA005C0C4E /* Build configuration list for PBXNativeTarget "TaxiApp" */;
 			buildPhases = (
+				002A53B5EE49034F2D7FE62F /* [CP] Check Pods Manifest.lock */,
 				C64DDBFC22B63BA8005C0C4E /* Sources */,
 				C64DDBFD22B63BA8005C0C4E /* Frameworks */,
 				C64DDBFE22B63BA8005C0C4E /* Resources */,
+				30C29406245EB258A2A7667E /* [CP] Embed Pods Frameworks */,
+				5A8B25B17617D7F9B12011B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +323,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C64DDC2E22B63BAA005C0C4E /* Build configuration list for PBXNativeTarget "TaxiAppTests" */;
 			buildPhases = (
+				C0A5DAC1A1C47C3F0DF5824E /* [CP] Check Pods Manifest.lock */,
 				C64DDC1322B63BA9005C0C4E /* Sources */,
 				C64DDC1422B63BA9005C0C4E /* Frameworks */,
 				C64DDC1522B63BA9005C0C4E /* Resources */,
@@ -170,6 +342,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C64DDC3122B63BAA005C0C4E /* Build configuration list for PBXNativeTarget "TaxiAppUITests" */;
 			buildPhases = (
+				708374B1239E155CC85FEA87 /* [CP] Check Pods Manifest.lock */,
 				C64DDC1E22B63BAA005C0C4E /* Sources */,
 				C64DDC1F22B63BAA005C0C4E /* Frameworks */,
 				C64DDC2022B63BAA005C0C4E /* Resources */,
@@ -233,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C64DDC1122B63BA9005C0C4E /* LaunchScreen.storyboard in Resources */,
+				C64DDC3922B63D0A005C0C4E /* GoogleService-Info.plist in Resources */,
 				C64DDC0E22B63BA9005C0C4E /* Assets.xcassets in Resources */,
 				C64DDC0922B63BA8005C0C4E /* Main.storyboard in Resources */,
 			);
@@ -254,14 +428,176 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		002A53B5EE49034F2D7FE62F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaxiApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30C29406245EB258A2A7667E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TaxiApp/Pods-TaxiApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/RSSelectionMenu/RSSelectionMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSSelectionMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaxiApp/Pods-TaxiApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8B25B17617D7F9B12011B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TaxiApp/Pods-TaxiApp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaxiApp/Pods-TaxiApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708374B1239E155CC85FEA87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaxiAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A5DAC1A1C47C3F0DF5824E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaxiAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C64DDBFC22B63BA8005C0C4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C64DDC0622B63BA8005C0C4E /* ViewController.swift in Sources */,
+				C69201D022B97BA90032EE72 /* LeftSidePanelViewController.swift in Sources */,
+				C69201C822B95CE30032EE72 /* RoundImageView.swift in Sources */,
+				C6CCF75B22C04FD80084B008 /* AutoCompleteSearchViewController.swift in Sources */,
+				C66EB6F122B9A89B00541197 /* RoundedPickerView.swift in Sources */,
+				C6B4487C22B9C8C900358F77 /* LoginViewController.swift in Sources */,
+				C69201D222B97CAC0032EE72 /* ContainerViewController.swift in Sources */,
+				C60F5AC222BF768600EE1460 /* UIViewControllerExtension.swift in Sources */,
+				C697A73822BBCF6000BEBE45 /* UIButtonExtension.swift in Sources */,
+				C6ABB6A522C1B00E00DE7414 /* ActionSheetExtension.swift in Sources */,
+				C6CCF75D22C055640084B008 /* RundedShadowUISearchBar.swift in Sources */,
+				C6B4487A22B9C75600358F77 /* UIViewExtension.swift in Sources */,
+				C64DDC0622B63BA8005C0C4E /* HomeViewController.swift in Sources */,
+				C69201CA22B95DFF0032EE72 /* RoundedShadowView.swift in Sources */,
+				C697A73A22BBEEB200BEBE45 /* UIAlertExtension.swift in Sources */,
+				C604312022BA78A800B87CEB /* RoundedCornerTextField.swift in Sources */,
 				C64DDC0C22B63BA8005C0C4E /* TaxiApp.xcdatamodeld in Sources */,
+				C69201C622B951310032EE72 /* GradientView.swift in Sources */,
+				C69201CC22B95EF80032EE72 /* CircleView.swift in Sources */,
+				C67A9A5522C1FC9E00982E45 /* VisaPaymentViewController.swift in Sources */,
+				C697A73622BBC4F600BEBE45 /* LangAndPermissionsViewController.swift in Sources */,
 				C64DDC0422B63BA8005C0C4E /* AppDelegate.swift in Sources */,
+				C639BA7822BF61EC007207EF /* CarTypeTableViewCell.swift in Sources */,
+				C69201CE22B960E90032EE72 /* RoundedShadowButton.swift in Sources */,
+				C69201D522B97F6F0032EE72 /* CenterViewControllerDelegate.swift in Sources */,
+				C6CCF75F22C059910084B008 /* ResultTableViewCell.swift in Sources */,
+				C639448922BAFBC00093C641 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +770,7 @@
 		};
 		C64DDC2C22B63BAA005C0C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E49CDB3ABF8E51DABE052D2 /* Pods-TaxiApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +789,7 @@
 		};
 		C64DDC2D22B63BAA005C0C4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A6A63073AEAAD41C3850EB /* Pods-TaxiApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +808,7 @@
 		};
 		C64DDC2F22B63BAA005C0C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F81D70FC60B7B848E6D13B /* Pods-TaxiAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +830,7 @@
 		};
 		C64DDC3022B63BAA005C0C4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1416252352498F9D73A8CEA2 /* Pods-TaxiAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +852,7 @@
 		};
 		C64DDC3222B63BAA005C0C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52F40CCE088DB65AF5C9F6D /* Pods-TaxiAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +873,7 @@
 		};
 		C64DDC3322B63BAA005C0C4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DCFBF4E4F3C0ECD7242C406 /* Pods-TaxiAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
