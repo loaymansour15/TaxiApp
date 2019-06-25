@@ -43,7 +43,8 @@ class LeftSidePanelViewController: UIViewController {
     @IBAction func showPaymentAction(_ sender: Any) {
         
         let nextVC = main.instantiateViewController(withIdentifier: "visaPaymentVC") as! VisaPaymentViewController
-        present(nextVC, animated: true)
+        //present(nextVC, animated: true)
+        AppDelegate.navigation.pushViewController(nextVC, animated: true)
     }
     
     func getUserNameAndPicture() {

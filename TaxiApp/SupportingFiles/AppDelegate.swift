@@ -25,6 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
 
+    static var navigation = UINavigationController()
     static var containerVC: ContainerViewController!
 
     
@@ -49,7 +50,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Set Root VC
         AppDelegate.containerVC = ContainerViewController()
-        window?.rootViewController = AppDelegate.containerVC
+        AppDelegate.navigation.isNavigationBarHidden = true
+        AppDelegate.navigation.viewControllers = [AppDelegate.containerVC]
+        window?.rootViewController = AppDelegate.navigation
         window?.makeKeyAndVisible()
 
         return true

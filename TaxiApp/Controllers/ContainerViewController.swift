@@ -41,7 +41,7 @@ class ContainerViewController: UIViewController {
     
     var tap: UITapGestureRecognizer!
     
-    var animation = UIView.AnimationOptions.transitionFlipFromBottom
+    var animation = UIView.AnimationOptions.curveEaseInOut
     
     let revealingSplashView = RevealingSplashView(iconImage: UIImage(named: "launchScreenIcon")!,iconInitialSize: CGSize(width: 80, height: 80), backgroundColor: UIColor.white)
     
@@ -82,24 +82,24 @@ class ContainerViewController: UIViewController {
         
         showVC = screen
         presentingController = getNextViewController(screen: showVC)
+        
         let tempController: UIViewController!
-        
+
         tempController = centerController
-        
+
         UIView.transition(with: self.view, duration: 0.5, options: [animation], animations: {
-            
+
             self.centerController = presentingController
             self.view.addSubview(self.centerController.view)
             self.addChild(self.centerController)
             self.centerController.didMove(toParent: self)
         }, completion: nil)
-        
-        if let temp = tempController{
-            
+
+        if let temp = tempController {
+
             temp.view.removeFromSuperview()
             temp.removeFromParent()
         }
-        
     }
     
     private func getNextViewController(screen: ShowWhichVC) -> UIViewController{
